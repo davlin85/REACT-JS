@@ -3,7 +3,9 @@ import React from 'react'
 function Home() {
     return (
         <div>
-            Home
+            <div className="container mt-5">
+                <h2>Home</h2>
+            </div>
         </div>
     )
 }

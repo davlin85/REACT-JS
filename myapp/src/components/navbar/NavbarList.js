@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom'
 function NavbarList() {
     return (
         <div className="navbar-nav">
-            <NavLink className="nav-link" aria-current="page" to="/" exact activeClassName="active">Home</NavLink>
-            <NavLink className="nav-link" to="/products" exact activeClassName="active">Products</NavLink>
+            <NavLink className="nav-link me-2" aria-current="page" to="/" exact activeClassName="active">Home</NavLink>
+            <NavLink className="nav-link me-2" to="/customers" exact activeClassName="active">Customers</NavLink>
         </div>
     )
 }
