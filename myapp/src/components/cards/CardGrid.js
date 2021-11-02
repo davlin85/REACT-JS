@@ -5,8 +5,8 @@ function CardGrid() {
 
     let [customers, setCustomers] = useState ([])
 
-    useEffect(async () => {
-        async function fetchData() {
+    useEffect( () => {
+        async function fetchData(async) {
         const res = await fetch("https://ecexam-webapi.azurewebsites.net/api/Customers/")
         const data = (await res.json())
         setCustomers(data)

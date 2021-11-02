@@ -6,6 +6,7 @@ function NavbarList() {
         <div className="navbar-nav">
             <NavLink className="nav-link me-2" aria-current="page" to="/" exact activeClassName="active">Home</NavLink>
             <NavLink className="nav-link me-2" to="/customers" exact activeClassName="active">Customers</NavLink>
+            <NavLink className="nav-link me-2" to="/NewCustomer" exact activeClassName="active">New Customer</NavLink>
         </div>
     )
 }
