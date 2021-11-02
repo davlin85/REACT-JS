@@ -1,5 +1,6 @@
 import React from 'react'
-import profile from '../../img/blank-profile.svg'
+import profile from '../../img/blank-profile.png'
+
 
 function Card({ item }) {
     return (
@@ -7,11 +8,11 @@ function Card({ item }) {
             <div className="card shadow">
                 <img src={profile} className="card-img-top" alt="..." />
                 <div className="card-body">
-                    <div>
                         <h3 className="card-title">{item.id}</h3>
                         <h5 className="card-title">{item.firstName} {item.lastName}</h5>
-                        <p className="card-text small text-danger">{item.email}</p>
-                    </div>
+                </div>
+                <div class="card-footer">
+                    <small className="text-danger">{item.email}</small>
                 </div>
             </div>
         </div>
@@ -20,9 +21,3 @@ function Card({ item }) {
 
 export default Card
 
-/*{
-    "id": 0,
-    "firstName": "string",
-    "lastName": "string",
-    "email": "string"
-  }*/
