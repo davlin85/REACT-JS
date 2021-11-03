@@ -28,6 +28,13 @@ class SignUp extends Component {
             })
     }
 
+    validMinvalue = (value, minValue = 2) => {
+        if(value.length < minValue)
+            return false
+
+            return true
+    }
+    
 
     render() {
         const { firstName, lastName, email } = this.state
