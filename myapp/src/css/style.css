@@ -17,3 +17,7 @@ h2 {
 .card:hover {
   box-shadow: 0 5px 20px 5px rgba(49, 63, 78, 0.411) !important;
 }
+
+#contactForm-firstName {
+  font-size: 0.9rem !important;
+}
