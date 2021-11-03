@@ -4,7 +4,7 @@ import profile from '../../img/blank-profile.png'
 
 function Card({ item }) {
     return (
-        <div className="col mb-3">
+        <div className="col">
             <div className="card shadow">
                 <img src={profile} className="card-img-top" alt="..." />
                 <div className="card-body">

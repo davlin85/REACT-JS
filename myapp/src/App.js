@@ -1,8 +1,7 @@
 import '../src/css/style.css'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
-import Home from './views/Home'
 import Customers from './views/Customers'
-import NewCustomer from './views/NewCustomer'
+import SignUp from './views/SignUp'
 import Navbar from './components/navbar/Navbar'
 
 
@@ -11,9 +10,8 @@ function App() {
     <BrowserRouter>
     <Navbar />
       <Switch>
-          <Route path="/Customers" exact component={Customers} />
-          <Route path="/NewCustomer" exact component={NewCustomer} />
-          <Route path="/" exact component={Home} />
+          <Route path="/SignUp" exact component={SignUp} />
+          <Route path="/" exact component={Customers} />
       </Switch>
     </BrowserRouter>
   );
