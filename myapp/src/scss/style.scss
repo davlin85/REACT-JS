@@ -6,6 +6,15 @@ body {
     overflow-y: scroll;
 }
 
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.header {
+    font-size: 1.2rem;
+}
+
 h2 {
     font-size: 2.8rem;
     font-weight: 900;
@@ -17,4 +26,12 @@ h2 {
 
 .card:hover {
     box-shadow: 0 5px 20px 5px rgba(49, 63, 78, 0.411) !important;
+}
+
+.warning {
+    font-size: 0.8rem;
+}
+
+#contactForm-submit {
+    font-size: 1.1rem;
 }

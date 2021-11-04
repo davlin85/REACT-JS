@@ -7,7 +7,7 @@ function Customers() {
             <div className="container mt-5">
                 <figure>
                     <blockquote class="blockquote">
-                        <p><h2>Customers</h2></p>
+                        <h2>Customers</h2>
                     </blockquote>
                     <figcaption class="blockquote-footer ms-3">
                         All of our <cite title="Source Title">Customers!</cite>
