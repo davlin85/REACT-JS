@@ -1,20 +1,21 @@
 import React from 'react'
+import CardGrid2 from '../components/cards/CardGrid2'
 
-function ThankYou() {
+function Customers() {
     return (
-        <div> 
-            <div className="container mt-5 text-center">
-                <figure>
-                    <blockquote class="blockquote">
+      
+            <div className="container mt-5">
+                <figure className="text-center">
+                    <blockquote className="blockquote">
                         <h1>Thank You!</h1>
                     </blockquote>
-                    <figcaption class="blockquote-footer ms-3 header">
+                    <figcaption className="blockquote-footer ms-3 header mb-5">
                         And Welcome to <cite title="Source Title">React App!</cite>
                     </figcaption>
                 </figure>
+                <CardGrid2 />
             </div>
-        </div>
     )
 }
 
-export default ThankYou
+export default Customers

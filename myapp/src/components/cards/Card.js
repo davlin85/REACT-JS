@@ -11,7 +11,7 @@ function Card({ item }) {
                         <h3 className="card-title">{item.id}</h3>
                         <h5 className="card-title">{item.firstName} {item.lastName}</h5>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                     <small className="text-danger">{item.email}</small>
                 </div>
             </div>

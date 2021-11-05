@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Card from './Card'
 
-function CardGrid() {
+function CardGrid2() {
 
     let [customers, setCustomers] = useState ([])
 
@@ -15,10 +15,10 @@ function CardGrid() {
     },[])
 
     return (
-        
-        <div className="row row-cols-1 row-cols-md-4 g-4 mt-2 mb-5">
+        <div className="row row-cols-1 row-cols-md-3 g-3 mt-2 mb-5 justify-content-center">
+            
             {
-            customers.slice(0).reverse().map(customer =>( 
+            customers.slice(-1).map(customer =>( 
                 <Card key="user.id" item={customer} />
             ))
             }
@@ -27,5 +27,5 @@ function CardGrid() {
     )
 }
 
-export default CardGrid
+export default CardGrid2
 

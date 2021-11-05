@@ -8,15 +8,16 @@ import Navbar from './components/navbar/Navbar'
 
 function App() {
   return (
-    
+    <>
     <BrowserRouter>
     <Navbar />
       <Switch>
           <Route path="/SignUp" exact component={SignUp} />
-          <Route path="/ThankYou" exact component={ThankYou} />
+          <Route path="/thankyou" exact component={ThankYou} />
           <Route path="/" exact component={Customers} />
       </Switch>
     </BrowserRouter>
+    </>
   );
 }
 
