@@ -34,3 +34,12 @@ h2 {
 #contactForm-submit {
   font-size: 1.1rem;
 }
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+a:hover {
+  color: #212529;
+}

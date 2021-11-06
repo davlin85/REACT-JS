@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Card from './Card'
+import {Link} from 'react-router-dom'
 
 function CardGrid() {
 
@@ -19,7 +20,7 @@ function CardGrid() {
         <div className="row row-cols-1 row-cols-md-4 g-4 mt-2 mb-5">
             {
             customers.slice(0).reverse().map(customer =>( 
-                <Card key="user.id" item={customer} />
+                <Link to={`customers/customer/${customer.id}`}><Card key={customer.id} item={customer} /></Link>
             ))
             }
 

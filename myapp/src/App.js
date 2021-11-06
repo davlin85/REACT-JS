@@ -4,6 +4,7 @@ import Customers from './views/Customers'
 import SignUp from './views/SignUp'
 import ThankYou from './views/ThankYou'
 import Navbar from './components/navbar/Navbar'
+import CustomersDetails from './views/CustomersDetails'
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <BrowserRouter>
     <Navbar />
       <Switch>
-          <Route path="/SignUp" exact component={SignUp} />
+          <Route path="/signUp" exact component={SignUp} />
+          <Route path="/customers/customer/:id" exact component={CustomersDetails} />
           <Route path="/thankyou" exact component={ThankYou} />
           <Route path="/" exact component={Customers} />
       </Switch>
